@@ -8,4 +8,5 @@ import time
 p = Pin(20, Pin.OUT)
 print("Pulling GP20 High...")
 p.value(1)
-time.sleep(10)  # holds low for 10 seconds then exits cleanly
+time.sleep(5)  # holds low for 5 seconds then exits cleanly
+p.value(0)

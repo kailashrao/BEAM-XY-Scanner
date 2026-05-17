@@ -43,7 +43,7 @@ print(send_command('ACC=300'))     # Gentle acceleration
 print(send_command('EO=3'))
 
 # Move X to position 1000 (small move)
-print(send_command('X-20000'))
+print(send_command('X10000'))
 print(send_command('Y0000'))
 
 # Poll until idle
