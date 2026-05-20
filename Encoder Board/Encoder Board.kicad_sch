@@ -6557,7 +6557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex_Milligrid:Molex_8783210xx_2x05_P2.0mm_Header_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 39.37 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -6815,7 +6815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex_Milligrid:Molex_8783210xx_2x05_P2.0mm_Header_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 222.25 41.91 0)
 			(hide yes)
 			(show_name no)
