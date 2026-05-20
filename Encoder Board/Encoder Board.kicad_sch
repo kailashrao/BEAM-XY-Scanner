@@ -5529,16 +5529,6 @@
 		)
 		(uuid "0a6fc947-65c2-43fe-8a37-b5208e6880d9")
 	)
-	(label "B"
-		(at 71.12 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d0cd2ce-f428-4190-869d-9b335251d9dd")
-	)
 	(label "INDEX"
 		(at 46.99 41.91 0)
 		(effects
@@ -5549,6 +5539,16 @@
 		)
 		(uuid "0f814fc6-5209-49d1-a3fb-578a8032517f")
 	)
+	(label "B_N"
+		(at 71.12 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ff4020f-c1ab-43a0-99e9-5dda37802fa7")
+	)
 	(label "TRIGGER"
 		(at 191.77 64.77 0)
 		(effects
@@ -5558,16 +5558,6 @@
 			(justify left bottom)
 		)
 		(uuid "1c835d3b-64b0-4b21-bd96-17f278c6d5ad")
-	)
-	(label "A"
-		(at 71.12 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1c8c93e1-8eb0-4d0d-9f26-59c6105d05cc")
 	)
 	(label "TRIGGER"
 		(at 210.82 90.17 180)
@@ -5619,6 +5609,16 @@
 		)
 		(uuid "30930e4c-0549-4ae6-a6c1-5b8390c8619a")
 	)
+	(label "A_N"
+		(at 71.12 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30ec0959-4d94-4621-ad73-d30505e7a559")
+	)
 	(label "B"
 		(at 229.87 46.99 0)
 		(effects
@@ -5659,6 +5659,16 @@
 		)
 		(uuid "67e4c300-1ff8-49d7-8c3a-f11c0fbcaff3")
 	)
+	(label "A"
+		(at 71.12 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b967134-1d4d-4b13-9543-eafe57cf3fa9")
+	)
 	(label "B"
 		(at 46.99 49.53 0)
 		(effects
@@ -5668,16 +5678,6 @@
 			(justify left bottom)
 		)
 		(uuid "830db15a-dfe2-4a8b-a1d8-cbd73ec02d37")
-	)
-	(label "A_N"
-		(at 71.12 44.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9265bab2-cb37-48c4-a218-faa0da1df679")
 	)
 	(label "B_3V3"
 		(at 109.22 41.91 0)
@@ -5708,6 +5708,16 @@
 			(justify right bottom)
 		)
 		(uuid "a66e8cb6-5d9a-4343-8172-f638600e7753")
+	)
+	(label "B"
+		(at 71.12 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c49bfb20-ad18-4e36-808e-e6c1578dde43")
 	)
 	(label "B_N"
 		(at 34.29 49.53 180)
@@ -5768,16 +5778,6 @@
 			(justify right bottom)
 		)
 		(uuid "ef23e863-0d4b-4b17-bdb6-1d262c93b411")
-	)
-	(label "B_N"
-		(at 71.12 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fe976178-8ef5-4c9d-9b60-132b2b758a82")
 	)
 	(symbol
 		(lib_id "Interface:AM26LV32xD")
@@ -8176,7 +8176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 266.7 92.71 0)
 			(hide yes)
 			(show_name no)
