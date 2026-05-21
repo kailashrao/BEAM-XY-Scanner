@@ -5,6 +5,146 @@
 	(uuid "b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4726,6 +4866,12 @@
 		(uuid "563de24d-bf48-45e9-9848-8fd401f00eb0")
 	)
 	(junction
+		(at 106.68 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d8caa2f-b703-4e76-aff4-6364446b027b")
+	)
+	(junction
 		(at 170.18 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5192,6 +5338,16 @@
 			(type default)
 		)
 		(uuid "82e7f627-a424-4274-854c-4e05df6b2bde")
+	)
+	(wire
+		(pts
+			(xy 99.06 22.86) (xy 106.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861db20b-856f-4a79-bad2-0d6b0d410e94")
 	)
 	(wire
 		(pts
@@ -6207,6 +6363,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 106.68 22.86 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1361f137-12fc-46b2-92fc-4b2be714777c")
+		(property "Reference" "#FLG03"
+			(at 106.68 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 106.68 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 106.68 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cea225d-4425-43f7-b445-5e2d8d8b16c2")
+		)
+		(instances
+			(project "Encoder Board"
+				(path "/b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 85.09 67.31 270)
 		(unit 1)
@@ -6307,8 +6541,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 210.82 41.656 0)
+		(property "Value" "+5V_E"
+			(at 210.058 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6675,6 +6909,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 93.98 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55983d82-691c-4cc7-b8c8-49edcc46dbc5")
+		(property "Reference" "J4"
+			(at 94.615 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 94.615 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 93.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 93.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3cc3f5f9-b052-426d-a4ec-369c9a1bc372")
+		)
+		(instances
+			(project "Encoder Board"
+				(path "/b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 39.37 44.45 0)
 		(unit 1)
@@ -6877,8 +7188,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 27.94 44.196 0)
+		(property "Value" "+5V_E"
+			(at 26.924 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7147,7 +7458,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.64 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8169,7 +8480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.64 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8251,7 +8562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 41.91 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8322,7 +8633,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_S"
 			(at 139.7 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8379,6 +8690,84 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 106.68 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9d0d713-34fd-46e3-b63e-18f90410aeac")
+		(property "Reference" "#PWR020"
+			(at 106.68 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_S"
+			(at 106.68 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 106.68 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f27cbef4-9e20-4feb-b30f-d8dedec29988")
+		)
+		(instances
+			(project "Encoder Board"
+				(path "/b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 49.53 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -8399,8 +8788,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 51.562 43.942 0)
+		(property "Value" "+5V_E"
+			(at 52.578 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9037,8 +9426,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 234.442 41.402 0)
+		(property "Value" "+5V_E"
+			(at 235.458 41.656 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9104,7 +9493,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6aab266-799f-4862-9386-9f70fc7febe5")
-		(property "Reference" "+5V_1"
+		(property "Reference" "+5V_S1"
 			(at 137.668 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9165,7 +9554,7 @@
 		(instances
 			(project "Encoder Board"
 				(path "/b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
-					(reference "+5V_1")
+					(reference "+5V_S1")
 					(unit 1)
 				)
 			)
