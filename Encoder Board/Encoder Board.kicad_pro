@@ -632,7 +632,7 @@
         "uuid": "b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
       }
     ],
-    "used_designators": "+3V1,+5V1,R1-3,#FLG1-4,TP1,C1-5,U1-2,A1,GND1,D1,#PWR1-20,+5V_Supply1,NT1,J1-4",
+    "used_designators": "+3V1,+5V1,R1-3,#FLG1-4,TP1,C1-5,U1-2,A1,GND1,D1,#PWR1-20,+5V_Supply1,NT1,J1-5",
     "variants": []
   },
   "sheets": [
