@@ -6111,7 +6111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoints_WideSM:TestPoint_Pad_D2.0mm_WideSM"
 			(at 165.1 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6500,7 +6500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoints_WideSM:TestPoint_Pad_D2.0mm_WideSM"
 			(at 170.18 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7646,7 +7646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoints_WideSM:TestPoint_Pad_D2.0mm_WideSM"
 			(at 144.78 24.13 0)
 			(hide yes)
 			(show_name no)
