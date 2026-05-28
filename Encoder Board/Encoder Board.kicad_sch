@@ -5,7 +5,7 @@
 	(uuid "b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -25,8 +25,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -100,10 +100,21 @@
 					)
 				)
 			)
-			(symbol "Conn_01x01_Pin_1_1"
+			(symbol "Conn_01x02_Pin_1_1"
 				(rectangle
 					(start 0.8636 0.127)
 					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -124,6 +135,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
@@ -135,6 +158,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5403,7 +5444,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
+		(lib_id "Connector:Conn_01x02_Pin")
 		(at 93.98 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -5413,8 +5454,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "55983d82-691c-4cc7-b8c8-49edcc46dbc5")
-		(property "Reference" "J4"
+		(uuid "57e270e8-fcc5-43b1-9e0f-d00ff7d36191")
+		(property "Reference" "J3"
 			(at 94.615 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5424,7 +5465,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "Conn_01x02_Pin"
 			(at 94.615 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5434,7 +5475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 93.98 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -5456,7 +5497,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 93.98 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -5468,12 +5509,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3cc3f5f9-b052-426d-a4ec-369c9a1bc372")
+			(uuid "75cc2b0f-c4f7-454e-a42d-c2e51b87083a")
+		)
+		(pin "2"
+			(uuid "0eb6bf82-92dd-4a00-865b-3525a0664ef5")
 		)
 		(instances
 			(project "Encoder Board"
 				(path "/b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6234,8 +6278,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 219.71 64.77 180)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 219.71 64.77 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6243,29 +6288,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1908d55-142b-413c-97cd-664f85b9a8f1")
-		(property "Reference" "J3"
-			(at 219.075 59.69 0)
+		(uuid "a259147b-ae91-4f50-9ef9-0daccdf7f7b3")
+		(property "Reference" "J4"
+			(at 220.98 67.3101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 219.075 62.23 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 220.98 64.7701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 219.71 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6287,7 +6333,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 219.71 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6299,12 +6345,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "895425ff-ec1b-4db4-92af-31c63907f476")
+			(uuid "8c7eb0b0-0eaf-4b8e-833a-3b5164421005")
+		)
+		(pin "2"
+			(uuid "c80bd1ec-fefd-44f3-b58f-d8c31b0d4c8f")
 		)
 		(instances
 			(project "Encoder Board"
 				(path "/b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7686,6 +7735,162 @@
 			(project "Encoder Board"
 				(path "/b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
 					(reference "+5V_S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd60fdef-4651-4bc4-9580-6eabd7507d8d")
+		(property "Reference" "#PWR012"
+			(at 214.63 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bf846d7-7ab8-4f7f-b309-c73223a2e9a6")
+		)
+		(instances
+			(project "Encoder Board"
+				(path "/b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffed0616-9eaf-48bd-8c21-c11d99ac0e99")
+		(property "Reference" "#PWR013"
+			(at 99.06 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0318269f-4dc5-4410-8fe1-f1ec343c41cb")
+		)
+		(instances
+			(project "Encoder Board"
+				(path "/b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
