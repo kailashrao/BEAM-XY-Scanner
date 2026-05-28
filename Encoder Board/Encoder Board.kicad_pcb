@@ -7602,6 +7602,28 @@
 		)
 	)
 	(gr_circle
+		(center 84 80)
+		(end 84 80.155)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9ba548d6-df49-48c0-b903-0288511bcd64")
+	)
+	(gr_circle
+		(center 119 66.5)
+		(end 119 66.655)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "926c4d5c-0a93-4270-b524-73891fda0df6")
+	)
+	(gr_circle
 		(center 124 57.845)
 		(end 124 58)
 		(stroke
