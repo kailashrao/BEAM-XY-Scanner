@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|105775000|55232500|bb441799-a04e-4058-9fb0-9df2389114a5|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -548,10 +543,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
+        "track_width": 0.4,
         "tuning_profile": "",
-        "via_diameter": 0.4572,
-        "via_drill": 0.254,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -738,7 +733,7 @@
         "uuid": "b150f569-1eb1-4e1b-95b0-6f55a9bdc5c1"
       }
     ],
-    "used_designators": "J3-5,#PWR12-13",
+    "used_designators": "R4,#FLG3-5,J3-8,D2,+5V_S2,#PWR12-13,#PWR15,#PWR17-18,#PWR21-24,D1x1,J4x1",
     "variants": []
   },
   "sheets": [
