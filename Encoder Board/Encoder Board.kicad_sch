@@ -5853,6 +5853,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 38.1) (xy 111.76 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fa2777-f943-4e4d-8db7-f0327ebad102")
+	)
+	(wire
+		(pts
 			(xy 120.65 21.59) (xy 124.46 21.59)
 		)
 		(stroke
@@ -6423,16 +6433,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 111.76 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4dd75d-26b1-42da-9ff8-ea6a4a004bf3")
-	)
-	(wire
-		(pts
 			(xy 137.16 60.96) (xy 142.24 60.96)
 		)
 		(stroke
@@ -6472,7 +6472,7 @@
 		(uuid "0a6fc947-65c2-43fe-8a37-b5208e6880d9")
 	)
 	(label "B_N"
-		(at 96.52 43.18 180)
+		(at 96.52 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6491,8 +6491,18 @@
 		)
 		(uuid "0f814fc6-5209-49d1-a3fb-578a8032517f")
 	)
+	(label "B_3V3"
+		(at 33.02 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "151e7704-539e-4255-9eba-ecf24ba5aa1e")
+	)
 	(label "INDEX_3V3"
-		(at 142.24 60.96 0)
+		(at 142.24 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6582,7 +6592,7 @@
 		(uuid "6bdb4e39-e16c-41e7-a791-b7485759ca1f")
 	)
 	(label "B"
-		(at 93.98 38.1 180)
+		(at 93.98 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6592,7 +6602,7 @@
 		(uuid "6c13689c-38a3-44f1-8b31-a669991d7271")
 	)
 	(label "INDEX_N"
-		(at 101.6 63.5 180)
+		(at 99.06 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6621,8 +6631,18 @@
 		)
 		(uuid "830db15a-dfe2-4a8b-a1d8-cbd73ec02d37")
 	)
+	(label "INDEX_3V3"
+		(at 33.02 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f8e51c6-5f2a-4091-a385-5b65ffd698ae")
+	)
 	(label "B_3V3"
-		(at 142.24 40.64 0)
+		(at 142.24 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6640,26 +6660,6 @@
 			(justify left bottom)
 		)
 		(uuid "9afcf6e9-3313-47ee-a1a1-6986f67a285b")
-	)
-	(label "B_3V3"
-		(at 33.02 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9f9b4ed7-feb4-43bc-9db0-8f1eecb98b16")
-	)
-	(label "INDEX_3V3"
-		(at 33.02 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a138ebb9-ad6d-451b-9d63-6e115bab1e8c")
 	)
 	(label "A_N"
 		(at 29.21 31.75 180)
@@ -6722,7 +6722,7 @@
 		(uuid "ef23e863-0d4b-4b17-bdb6-1d262c93b411")
 	)
 	(label "INDEX"
-		(at 99.06 58.42 180)
+		(at 96.52 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
