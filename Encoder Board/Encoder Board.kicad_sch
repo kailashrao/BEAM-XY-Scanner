@@ -7993,7 +7993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Clip Connector Library:PinSocket_2x05_P2.54mm_Vertical_ClipConnector"
 			(at 34.29 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8386,7 +8386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Clip Connector Library:PinSocket_2x05_P2.54mm_Vertical_ClipConnector"
 			(at 259.08 30.48 0)
 			(hide yes)
 			(show_name no)

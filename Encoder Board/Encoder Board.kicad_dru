@@ -159,8 +159,8 @@
 
 # ----------------------------------- silkscreen --------------------------
 (rule "Minimum Text"
-(constraint text_thickness (min 0.15mm))
-(constraint text_height (min 0.8mm))
+(constraint text_thickness (min 0.1270 mm))
+(constraint text_height (min 0.6 mm))
 (layer "?.Silkscreen"))
 
 (rule "Pad to Silkscreen"
