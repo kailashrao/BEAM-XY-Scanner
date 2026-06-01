@@ -7,5 +7,5 @@ AM26LV32xD,U1,SOIC-16_3.9x9.9mm_P1.27mm,C524786,1
 Conn_01x02_Pin,"J3,J4",PinHeader_1x02_P2.54mm_Vertical,C32713268,2
 Conn_01x20,"J5,J6",PinSocket_1x20_P2.54mm_Vertical,C7509519,2
 Conn_02x04_Odd_Even,J7,PinHeader_2x04_P2.54mm_Vertical,C42431809,1
-Conn_02x05_Odd_Even,"J1,J2",PinHeader_2x05_P2.54mm_Vertical,C5665,2
+Conn_02x05_Odd_Even,"J1,J2",PinSocket_2x05_P2.54mm_Vertical_ClipConnector,C5665,2
 D_Schottky,D1,D_SMA_Handsoldering,C83852,1
