@@ -6,7 +6,8 @@
 import serial
 import time
 
-PORT = '/dev/tty.usbserial-BG00NHQR'
+# PORT = '/dev/tty.usbserial-BG00NHQR' # macOS
+PORT = 'COM5'  # Windows
 DEVICE = '00'
 
 ser = serial.Serial(
@@ -43,7 +44,7 @@ print(send_command('ACC=300'))     # Gentle acceleration
 print(send_command('EO=3'))
 
 # Move X to position 1000 (small move)
-print(send_command('X10000'))
+print(send_command('X-10000'))
 print(send_command('Y0000'))
 
 # Poll until idle

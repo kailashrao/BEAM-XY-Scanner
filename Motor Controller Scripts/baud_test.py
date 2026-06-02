@@ -3,9 +3,12 @@
 
 # Find the current baud rate of motor controller
 
-import serial, time
+import serial, time # pip install pyserial
 
-PORT = '/dev/tty.usbserial-BG00NHQR'
+# PORT = '/dev/tty.usbserial-BG00NHQR'  # macOS
+PORT = 'COM5'  # Windows
+
+
 BAUDS = [9600, 19200, 38400, 57600, 115200]
 
 for baud in BAUDS:

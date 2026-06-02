@@ -12,7 +12,7 @@ trigger_pin = Pin(20, Pin.OUT)
 
 trigger_pin.value(0)
 
-TRIGGER_EVERY = 1
+TRIGGER_EVERY = 5
 pulse_count = 0
 
 # Track state as integer (0 or 1) for native performance
