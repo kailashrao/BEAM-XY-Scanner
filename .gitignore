@@ -30,4 +30,5 @@ fp-info-cache
 # *.csv
 
 *.lck
-.history/*
+.history/
+*.rpt
