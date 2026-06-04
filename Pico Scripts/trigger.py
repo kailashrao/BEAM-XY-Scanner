@@ -3,6 +3,8 @@
 
 # Generate trigger after TRIGGER_EVERY rising edges from encoder
 
+# Uses CPU interrupts
+
 from machine import Pin
 import time
 import sys

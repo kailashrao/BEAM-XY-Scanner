@@ -1,5 +1,10 @@
 # trigger_viper_optimized.py
-# Maximized for ultra-low latency and zero-allocation jitter
+# Updated 6/3/2026 by Kailash Rao
+
+# Generate trigger after TRIGGER_EVERY rising edges from encoder
+
+# CPU interrupts
+# Using micropython.viper handlers for lower latency and zero-allocation jitter
 
 import gc
 from machine import Pin

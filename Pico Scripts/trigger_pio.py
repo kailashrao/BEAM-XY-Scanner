@@ -1,3 +1,10 @@
+# trigger_pio.py
+# Updated 6/3/2026 by Kailash Rao
+
+# Generate trigger after TRIGGER_EVERY rising edges from encoder
+
+# Uses PIO state machine for hardware-based pulse-width matching (lowest latency, zero CPU load)
+
 import rp2
 from machine import Pin
 import time

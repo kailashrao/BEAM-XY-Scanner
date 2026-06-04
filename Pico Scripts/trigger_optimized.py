@@ -1,5 +1,10 @@
 # trigger_optimized.py
-# Optimized for microsecond-level latency
+# Updated 5/16/2026 by Kailash Rao
+
+# Generate trigger after TRIGGER_EVERY rising edges from encoder
+
+# Uses CPU interrupts
+# Uses micropython.native handlers for lower latency
 
 from machine import Pin
 import time
