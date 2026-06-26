@@ -1,19 +1,24 @@
-# otf_motor_control.py
-# Updated 5/16/2026 by Kailash Rao
+# otf_software_trigger.py
+# Updated 6/26/2026 by Kailash Rao
 
 # On-The-Fly Meander Scan algorithm for XY scanner 
-# Generate measurement triggers to create (STEP_X * NXpixel) * (STEP_Y * NYpixel) array
+# Generate software measurement triggers to create (STEP_X * NXpixel) * (STEP_Y * NYpixel) array
 # Motor continues moving through each measurement, uses controller reported motor position
 
 import serial
 import time
 
 # --- Setup ---
-ser = serial.Serial('/dev/tty.usbserial-BG00NHQR', 57600, timeout=0.1)
+# PORT = '/dev/tty.usbserial-BG00NHQR' # macOS
+PORT = 'COM5'  # Windows
+BAUD = 57600
+
 DEVICE = '00'
 HSPD = 5000  
 MM_TO_STEPS = 133.333
 BUFFER = int(5 * MM_TO_STEPS)
+
+ser = serial.Serial(PORT, BAUD, timeout=0.1)
 
 NXpixel, NYpixel = 5, 5
 Step_X, Step_Y = 10, 10

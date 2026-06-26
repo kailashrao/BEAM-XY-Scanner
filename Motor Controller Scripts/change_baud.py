@@ -7,9 +7,10 @@ import serial
 import time
 
 # --- Configuration ---
-PORT = '/dev/tty.usbserial-BG00NHQR'
+# PORT = '/dev/tty.usbserial-BG00NHQR' # macOS
+PORT = 'COM5'  # Windows
 DEVICE = '00'
-CURRENT_BAUD = 38400  # Change this to match your current setting
+CURRENT_BAUD = 57600  # Change this to match your current setting
 
 BAUD_MAP = {
     "9600": 1,

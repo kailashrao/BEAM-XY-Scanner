@@ -10,6 +10,9 @@ import time
 PORT = 'COM5'  # Windows
 DEVICE = '00'
 
+XPOS = 10000  # Target X position in steps
+YPOS = 0      # Target Y position in steps
+
 ser = serial.Serial(
     port=PORT,
     baudrate=57600,
@@ -44,8 +47,8 @@ print(send_command('ACC=300'))     # Gentle acceleration
 print(send_command('EO=3'))
 
 # Move X to position 1000 (small move)
-print(send_command('X10000'))
-print(send_command('Y0000'))
+print(send_command(f'X{XPOS}'))
+print(send_command(f'Y{YPOS}'))
 
 # Poll until idle
 while True:

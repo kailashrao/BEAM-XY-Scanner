@@ -1,15 +1,16 @@
-# motor_control.py
-# Updated 5/16/2026 by Kailash Rao
+# stop_measure_software_trigger.py
+# Updated 6/26/2026 by Kailash Rao
 
 # Meander Scan algorithm for XY scanner 
-# Generate measurement triggers to create (STEP_X * NXpixel) * (STEP_Y * NYpixel) array
+# Generate software measurement triggers to create (STEP_X * NXpixel) * (STEP_Y * NYpixel) array
 # Motor stops at each measurement, uses controller reported motor position
 
 import serial
 import time
 
 # --- Serial setup ---
-PORT = '/dev/tty.usbserial-BG00NHQR'
+# PORT = '/dev/tty.usbserial-BG00NHQR' # macOS
+PORT = 'COM5'  # Windows
 DEVICE = '00'
 BAUD = 57600
 
