@@ -36,10 +36,10 @@ def encoder_divider_mirror():
 # 2. HARDWARE SETUP
 # ==========================================
 # Input: Encoder signal on GP21 (Using PULL_DOWN or PULL_UP depending on your setup)
-encoder_pin = Pin(21, Pin.IN, Pin.PULL_DOWN)
+encoder_pin = Pin(2, Pin.IN, Pin.PULL_DOWN)
 
 # Output: Radar Trigger on GP20
-trigger_pin = Pin(20, Pin.OUT, value=0)
+trigger_pin = Pin(21, Pin.OUT, value=0)
 
 # Instantiate State Machine 0 at 2 MHz
 sm = rp2.StateMachine(
