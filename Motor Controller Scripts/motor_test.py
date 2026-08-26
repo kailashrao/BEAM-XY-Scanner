@@ -7,11 +7,11 @@ import serial
 import time
 
 # PORT = '/dev/tty.usbserial-BG00NHQR' # macOS
-PORT = 'COM5'  # Windows
+PORT = 'COM4'  # Windows
 DEVICE = '00'
 
 XPOS = 10000  # Target X position in steps
-YPOS = 0      # Target Y position in steps
+YPOS = 10000      # Target Y position in steps
 
 ser = serial.Serial(
     port=PORT,

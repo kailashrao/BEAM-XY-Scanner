@@ -6,7 +6,7 @@
 import serial, time # pip install pyserial
 
 # PORT = '/dev/tty.usbserial-BG00NHQR'  # macOS
-PORT = 'COM5'  # Windows
+PORT = 'COM4'  # Windows
 
 
 BAUDS = [9600, 19200, 38400, 57600, 115200]

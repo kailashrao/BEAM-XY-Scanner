@@ -10,7 +10,7 @@ import time
 
 # --- Serial setup ---
 # PORT = '/dev/tty.usbserial-BG00NHQR' # macOS
-PORT = 'COM5'  # Windows
+PORT = 'COM4'  # Windows
 DEVICE = '00'
 BAUD = 57600
 

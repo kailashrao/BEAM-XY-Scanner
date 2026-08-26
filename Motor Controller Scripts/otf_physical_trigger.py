@@ -11,7 +11,7 @@ import time
 
 # --- Serial setup ---
 # PORT = '/dev/tty.usbserial-BG00NHQR'  # macOS
-PORT = 'COM5'  # Windows
+PORT = 'COM4'  # Windows
 DEVICE = '00'
 BAUD = 57600
 TIMEOUT = 0.2
@@ -29,14 +29,14 @@ ser = serial.Serial(
     inter_byte_timeout=0.001,
 )
 
-NXPIXEL = 5
+NXPIXEL = 50
 NYPIXEL = 5
 STEP_X_MM = 10
 STEP_Y_MM = 10
 START_X_MM = 0
 START_Y_MM = 0
-HSPD = 5000
-ACC = 100
+HSPD = 10000
+ACC = 300
 
 
 def send_command(command: str) -> str:
